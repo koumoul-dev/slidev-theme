@@ -1,0 +1,22 @@
+{
+  "name": "slidev-theme-koumoul",
+  "version": "0.1.0",
+  "description": "Koumoul organization theme for Slidev",
+  "license": "MIT",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "slidev": {
+    "colorSchema": "light",
+    "defaults": {
+      "fonts": {
+        "sans": "Nunito",
+        "weights": "400,600,700"
+      }
+    }
+  },
+  "engines": {
+    "slidev": ">=0.47.0"
+  }
+}
