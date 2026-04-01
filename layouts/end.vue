@@ -3,7 +3,7 @@ import logoSloganWhiteUrl from '../public/logo-slogan-white.png'
 </script>
 
 <template>
-  <div class="slidev-layout end">
+  <div class="slidev-layout end bg-primary">
     <div class="end-content">
       <slot />
     </div>

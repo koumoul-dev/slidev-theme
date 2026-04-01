@@ -3,7 +3,7 @@ import logoUrl from '../public/logo-slogan-white.png'
 </script>
 
 <template>
-  <div class="slidev-layout cover">
+  <div class="slidev-layout cover bg-primary">
     <div class="cover-content">
       <slot />
     </div>

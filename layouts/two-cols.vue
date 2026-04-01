@@ -1,9 +1,9 @@
 <template>
   <div class="slidev-layout two-cols">
-    <div class="col-left" :class="{ 'col-primary': leftIsPrimary }">
+    <div class="col-left" :class="{ 'bg-primary': leftIsPrimary }">
       <slot />
     </div>
-    <div class="col-right" :class="{ 'col-primary': rightIsPrimary }">
+    <div class="col-right" :class="{ 'bg-primary': rightIsPrimary }">
       <slot name="right" />
     </div>
   </div>

@@ -34,40 +34,13 @@ const showLogo = computed(() => {
 
 .global-logo {
   position: fixed;
-  right: 1.5rem;
-  bottom: 1rem;
+  right: 0.5rem;
+  bottom: 0.5rem;
   z-index: 10;
 }
 
 .global-logo img {
   height: 3rem;
   opacity: 0.8;
-}
-</style>
-
-<style>
-.slidev-page:has(.bg-primary-overlay) .slidev-layout {
-  background: transparent;
-  color: white;
-}
-
-.slidev-page:has(.bg-primary-overlay) .slidev-layout h1,
-.slidev-page:has(.bg-primary-overlay) .slidev-layout h2,
-.slidev-page:has(.bg-primary-overlay) .slidev-layout h3,
-.slidev-page:has(.bg-primary-overlay) .slidev-layout h4 {
-  color: white;
-}
-
-.slidev-page:has(.bg-primary-overlay) .slidev-layout a {
-  color: white;
-}
-
-.slidev-page:has(.bg-primary-overlay) .slidev-layout a:hover {
-  color: var(--slidev-theme-primary-light);
-}
-
-.slidev-page:has(.bg-primary-overlay) .slidev-layout code {
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
 }
 </style>
