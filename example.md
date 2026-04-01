@@ -13,9 +13,21 @@ La donnée accessible
 Koumoul développe des solutions **open source** pour rendre les données accessibles à tous.
 
 - Plateformes de données ouvertes
+  - Open Data
+  - Données internes
 - APIs et connecteurs de données
 - Visualisations interactives
 - Hébergement et accompagnement
+
+---
+
+# Nos valeurs
+
+1. Transparence et open source
+2. Accessibilité des données pour tous
+3. Innovation continue
+   - Veille technologique
+   - Contributions communautaires
 
 ---
 layout: section
