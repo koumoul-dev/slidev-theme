@@ -1,5 +1,9 @@
+<script setup>
+import logoUrl from '../public/logo.png'
+</script>
+
 <template>
-  <img src="/logo.png" alt="Koumoul" class="koumoul-logo" />
+  <img :src="logoUrl" alt="Koumoul" class="koumoul-logo" />
 </template>
 
 <style scoped>

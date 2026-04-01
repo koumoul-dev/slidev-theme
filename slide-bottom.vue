@@ -1,12 +1,13 @@
 <template>
   <div v-if="showLogo" class="global-logo">
-    <img src="/logo-circle.png" alt="Koumoul" />
+    <img :src="logoCircleUrl" alt="Koumoul" />
   </div>
 </template>
 
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useSlideContext } from '@slidev/client'
+import logoCircleUrl from './public/logo-circle.png'
 
 const { $frontmatter, $nav } = useSlideContext()
 const context = useSlideContext()
