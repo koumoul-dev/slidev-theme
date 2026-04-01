@@ -96,3 +96,34 @@ layout: section
 # Merci !
 
 Des questions ?
+
+---
+
+# Logo par défaut
+
+Cette slide affiche le logo en bas à droite (comportement par défaut).
+
+---
+layout: section
+---
+
+# Section sans logo
+
+Le logo est masqué par défaut sur les slides `section`.
+
+---
+layout: section
+bottom-logo: true
+---
+
+# Section avec logo
+
+Le meta `bottom-logo: true` force l'affichage du logo sur cette section.
+
+---
+bottom-logo: false
+---
+
+# Slide sans logo
+
+Le meta `bottom-logo: false` masque le logo sur cette slide.

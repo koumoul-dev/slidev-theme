@@ -113,6 +113,47 @@
   gap: 2rem;
 }
 
+/* Tables */
+.slidev-layout table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.95em;
+}
+
+.slidev-layout th {
+  background: var(--slidev-theme-primary);
+  color: white;
+  font-weight: 600;
+  text-align: left;
+  padding: 0.6rem 1rem;
+}
+
+.slidev-layout th:first-child {
+  border-radius: 0.375rem 0 0 0;
+}
+
+.slidev-layout th:last-child {
+  border-radius: 0 0.375rem 0 0;
+}
+
+.slidev-layout td {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.slidev-layout tr:nth-child(even) {
+  background: #f5f5f5;
+}
+
+.slidev-layout tr:last-child td:first-child {
+  border-radius: 0 0 0 0.375rem;
+}
+
+.slidev-layout tr:last-child td:last-child {
+  border-radius: 0 0 0.375rem 0;
+}
+
 /* Code blocks */
 .slidev-layout pre {
   background: #f5f5f5;
