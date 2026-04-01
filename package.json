@@ -25,5 +25,8 @@
     "@slidev/types": "^52.14.1",
     "typescript": "^6.0.2",
     "vue": "^3.5.31"
+  },
+  "dependencies": {
+    "@slidev/theme-default": "^0.25.0"
   }
 }
