@@ -100,6 +100,20 @@ console.log(`Count: ${count.value}, Doubled: ${doubled.value}`)
 
 ---
 
+# Mermaid Diagram
+
+```mermaid
+graph LR
+  A[Data Source] --> B[Ingestion]
+  B --> C{Processing}
+  C --> D[Storage]
+  C --> E[Real-time API]
+  D --> F[Dashboard]
+  E --> F
+```
+
+---
+
 # Table Example
 
 | Feature | Status |
