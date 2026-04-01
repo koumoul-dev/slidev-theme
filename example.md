@@ -88,27 +88,15 @@ console.log(`Count: ${count.value}, Doubled: ${doubled.value}`)
 | Dark mode | Supported |
 
 ---
-
-# Default Logo
-
-This slide shows the bottom-right logo (default behavior).
-
----
-layout: section
+background: primary
 ---
 
-# Section Without Logo
+# Primary Background
 
-The logo is hidden by default on `section` slides.
+This slide uses `background: primary` to get the primary color background with white text, without changing the layout.
 
----
-layout: section
-bottom-logo: true
----
-
-# Section With Logo
-
-The `bottom-logo: true` frontmatter forces the logo on this section slide.
+- Works with any layout
+- Automatically switches text to white
 
 ---
 bottom-logo: false

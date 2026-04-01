@@ -1,5 +1,5 @@
 <script setup>
-import logoUrl from '../public/logo.png'
+import logoUrl from '../public/logo-slogan-white.png'
 </script>
 
 <template>
@@ -22,10 +22,6 @@ import logoUrl from '../public/logo.png'
   align-items: center;
   width: 100%;
   text-align: center;
-  background: var(--slidev-theme-primary);
-  position: relative;
-  z-index: 1;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .cover-footer {
@@ -33,7 +29,6 @@ import logoUrl from '../public/logo.png'
   justify-content: center;
   align-items: center;
   padding: 1.5rem;
-  background: var(--slidev-theme-background);
 }
 
 .cover-logo {

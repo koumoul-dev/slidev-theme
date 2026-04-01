@@ -7,7 +7,6 @@ import logoSloganWhiteUrl from '../public/logo-slogan-white.png'
     <div class="end-content">
       <slot />
     </div>
-    <img :src="logoSloganWhiteUrl" class="end-logo" alt="Koumoul" />
   </div>
 </template>
 
