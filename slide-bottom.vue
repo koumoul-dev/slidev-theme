@@ -19,7 +19,7 @@ const showLogo = computed(() => {
     return val !== false && val !== 'false'
   }
   const layout = $nav.value.currentLayout
-  return layout !== 'section' && layout !== 'cover'
+  return layout !== 'section' && layout !== 'cover' && layout !== 'end'
 })
 </script>
 

@@ -88,14 +88,6 @@ console.log(`Count: ${count.value}, Doubled: ${doubled.value}`)
 | Dark mode | Supported |
 
 ---
-layout: section
----
-
-# Thank You!
-
-Any questions?
-
----
 
 # Default Logo
 
@@ -125,3 +117,11 @@ bottom-logo: false
 # Slide Without Logo
 
 The `bottom-logo: false` frontmatter hides the logo on this slide.
+
+---
+layout: end
+---
+
+# Thank You!
+
+Questions? Contact us at hello@test.com
