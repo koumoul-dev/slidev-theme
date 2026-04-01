@@ -2,129 +2,126 @@
 theme: ./
 ---
 
-# Bienvenue chez Koumoul
+# My Presentation Title
 
-La donnée accessible
-
----
-
-# Qui sommes-nous ?
-
-Koumoul développe des solutions **open source** pour rendre les données accessibles à tous.
-
-- Plateformes de données ouvertes
-  - Open Data
-  - Données internes
-- APIs et connecteurs de données
-- Visualisations interactives
-- Hébergement et accompagnement
+A subtitle for your talk
 
 ---
 
-# Nos valeurs
+# About This Talk
 
-1. Transparence et open source
-2. Accessibilité des données pour tous
-3. Innovation continue
-   - Veille technologique
-   - Contributions communautaires
+This presentation demonstrates the features of the **Slidev theme**.
+
+- Bullet points with nested items
+  - Sub-item one
+  - Sub-item two
+- Clean typography
+- Responsive layouts
+
+---
+
+# Key Principles
+
+1. Simple and elegant design
+2. Developer-friendly workflow
+3. Rich feature set
+   - Code highlighting
+   - Multiple layouts
 
 ---
 layout: section
 ---
 
-# Nos Solutions
+# Section Break
 
 ---
 layout: two-cols
 ---
 
-# Data Fair
+# Left Column
 
-Plateforme de données ouvertes permettant de publier, enrichir et visualiser des jeux de données.
+Content on the left side of a two-column layout.
 
-- Publication simplifiée
-- Enrichissement automatique
-- Visualisations intégrées
+- First point
+- Second point
+- Third point
 
 ::right::
 
-# Simple Directory
+# Right Column
 
-Service d'annuaire et de gestion des organisations pour vos applications.
+Content on the right side of a two-column layout.
 
-- Gestion des utilisateurs
-- Authentification OAuth2
-- Multi-organisations
+- Another point
+- Yet another point
+- One more point
 
 ---
 layout: center
 ---
 
-# Notre stack technique
+# Centered Content
 
-**Vue.js** · **Node.js** · **MongoDB** · **Elasticsearch**
+**Vue.js** · **Slidev** · **Markdown** · **Vite**
 
 ---
 
-# Exemple de code
+# Code Example
 
 ```javascript
-import axios from 'axios'
+import { ref, computed } from 'vue'
 
-const dataset = await axios.get(
-  'https://koumoul.com/data-fair/api/v1/datasets/mon-jeu-de-donnees'
-)
+const count = ref(0)
+const doubled = computed(() => count.value * 2)
 
-console.log(`${dataset.data.title}: ${dataset.data.count} lignes`)
+console.log(`Count: ${count.value}, Doubled: ${doubled.value}`)
 ```
 
 ---
 
-# Chiffres clés
+# Table Example
 
-| Métrique | Valeur |
-|----------|--------|
-| Plateformes déployées | 50+ |
-| Jeux de données publiés | 10 000+ |
-| Utilisateurs actifs | 100 000+ |
-
----
-layout: section
----
-
-# Merci !
-
-Des questions ?
-
----
-
-# Logo par défaut
-
-Cette slide affiche le logo en bas à droite (comportement par défaut).
+| Feature | Status |
+|---------|--------|
+| Slide layouts | Supported |
+| Code highlighting | Supported |
+| Dark mode | Supported |
 
 ---
 layout: section
 ---
 
-# Section sans logo
+# Thank You!
 
-Le logo est masqué par défaut sur les slides `section`.
+Any questions?
+
+---
+
+# Default Logo
+
+This slide shows the bottom-right logo (default behavior).
+
+---
+layout: section
+---
+
+# Section Without Logo
+
+The logo is hidden by default on `section` slides.
 
 ---
 layout: section
 bottom-logo: true
 ---
 
-# Section avec logo
+# Section With Logo
 
-Le meta `bottom-logo: true` force l'affichage du logo sur cette section.
+The `bottom-logo: true` frontmatter forces the logo on this section slide.
 
 ---
 bottom-logo: false
 ---
 
-# Slide sans logo
+# Slide Without Logo
 
-Le meta `bottom-logo: false` masque le logo sur cette slide.
-
+The `bottom-logo: false` frontmatter hides the logo on this slide.

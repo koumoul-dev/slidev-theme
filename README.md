@@ -2,6 +2,8 @@
 
 Koumoul organization theme for [Slidev](https://sli.dev/).
 
+[Live demo](https://koumoul-dev.github.io/slidev-theme/)
+
 ## Installation
 
 ```bash
