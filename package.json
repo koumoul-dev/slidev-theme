@@ -18,5 +18,11 @@
   },
   "engines": {
     "slidev": ">=0.47.0"
+  },
+  "devDependencies": {
+    "@slidev/client": "^52.14.1",
+    "@slidev/types": "^52.14.1",
+    "typescript": "^6.0.2",
+    "vue": "^3.5.31"
   }
 }

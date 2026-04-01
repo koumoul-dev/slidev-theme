@@ -4,18 +4,21 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { computed } from 'vue'
 import { useSlideContext } from '@slidev/client'
 
-const { $frontmatter } = useSlideContext()
+const { $frontmatter, $nav } = useSlideContext()
+const context = useSlideContext()
 
 const showLogo = computed(() => {
-  if ($frontmatter['bottom-logo'] !== undefined) {
-    return !!$frontmatter['bottom-logo']
+  // console.log($nav.nav.currentLayout)
+  const val = $frontmatter['bottom-logo']
+  if (val !== undefined) {
+    return val !== false && val !== 'false'
   }
-  const layout = $frontmatter.layout || 'default'
-  return layout !== 'section'
+  const layout = $nav.value.currentLayout
+  return layout !== 'section' && layout !== 'cover'
 })
 </script>
 

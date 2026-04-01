@@ -127,3 +127,4 @@ bottom-logo: false
 # Slide sans logo
 
 Le meta `bottom-logo: false` masque le logo sur cette slide.
+

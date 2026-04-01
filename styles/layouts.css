@@ -71,16 +71,18 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  background: var(--slidev-theme-primary);
+  color: white;
 }
 
 .slidev-layout.cover h1 {
   font-size: 2.75rem;
-  color: var(--slidev-theme-primary);
+  color: white;
 }
 
 .slidev-layout.cover p {
   font-size: 1.25rem;
-  color: #666;
+  color: rgba(255, 255, 255, 0.85);
   margin-top: 0.5rem;
 }
 

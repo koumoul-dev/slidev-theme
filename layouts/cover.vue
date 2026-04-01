@@ -1,6 +1,6 @@
 <template>
   <div class="slidev-layout cover">
-    <img src="/logo.png" class="cover-logo" alt="Koumoul" />
+    <img src="/logo-slogan-white.png" class="cover-logo" alt="Koumoul" />
     <slot />
   </div>
 </template>
