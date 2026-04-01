@@ -172,7 +172,48 @@
 .slidev-layout.two-cols {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.slidev-layout.two-cols .col-left,
+.slidev-layout.two-cols .col-right {
+  padding: 2.5rem;
+}
+
+.slidev-layout.two-cols .col-primary {
+  background: var(--slidev-theme-primary);
+  color: white;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.slidev-layout.two-cols .col-right.col-primary {
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.slidev-layout.two-cols .col-primary h1,
+.slidev-layout.two-cols .col-primary h2,
+.slidev-layout.two-cols .col-primary h3,
+.slidev-layout.two-cols .col-primary h4 {
+  color: white;
+}
+
+.slidev-layout.two-cols .col-primary a {
+  color: white;
+}
+
+.slidev-layout.two-cols .col-primary a:hover {
+  color: var(--slidev-theme-primary-light);
+}
+
+.slidev-layout.two-cols .col-primary code {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.slidev-layout.two-cols .col-primary li::marker {
+  color: white;
 }
 
 /* Tables */

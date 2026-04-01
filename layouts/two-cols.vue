@@ -1,10 +1,19 @@
 <template>
   <div class="slidev-layout two-cols">
-    <div class="col-left">
+    <div class="col-left" :class="{ 'col-primary': leftIsPrimary }">
       <slot />
     </div>
-    <div class="col-right">
+    <div class="col-right" :class="{ 'col-primary': rightIsPrimary }">
       <slot name="right" />
     </div>
   </div>
 </template>
+
+<script setup>
+import { computed } from 'vue'
+import { useSlideContext } from '@slidev/client'
+
+const { $frontmatter } = useSlideContext()
+const leftIsPrimary = computed(() => $frontmatter['left-bg'] === 'primary')
+const rightIsPrimary = computed(() => $frontmatter['right-bg'] === 'primary')
+</script>

@@ -57,6 +57,27 @@ Content on the right side of a two-column layout.
 - One more point
 
 ---
+layout: two-cols
+left-bg: primary
+---
+
+# Primary Left
+
+This column has a primary background with white text and shadow.
+
+- Styled automatically
+- Independent from right column
+
+::right::
+
+# Normal Right
+
+This column keeps the default styling.
+
+- Standard text color
+- Standard background
+
+---
 layout: center
 ---
 
