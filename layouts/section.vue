@@ -1,6 +1,6 @@
 <template>
   <div class="slidev-layout section">
-    <div>
+    <div class="theme-shadow">
       <slot />
     </div>
   </div>
