@@ -78,6 +78,28 @@ This column keeps the default styling.
 - Standard background
 
 ---
+layout: two-cols-header
+header-bg: primary
+right-bg: primary
+---
+
+# Two Columns Header
+
+::left::
+
+This column keeps the default styling with standard text and background.
+
+- Regular content
+- Standard colors
+
+::right::
+
+This column renders as a **primary card** with rounded corners and shadow.
+
+- Card-style background
+- White text
+
+---
 layout: center
 ---
 

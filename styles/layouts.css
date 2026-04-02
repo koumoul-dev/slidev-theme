@@ -80,6 +80,7 @@
 }
 
 .bg-primary,
+.card-primary,
 .slidev-page:has(.bg-primary-overlay) .slidev-layout {
   color: white;
 }
@@ -89,6 +90,7 @@
 }
 
 .bg-primary h1, .bg-primary h2, .bg-primary h3, .bg-primary h4,
+.card-primary h1, .card-primary h2, .card-primary h3, .card-primary h4,
 .slidev-page:has(.bg-primary-overlay) .slidev-layout h1,
 .slidev-page:has(.bg-primary-overlay) .slidev-layout h2,
 .slidev-page:has(.bg-primary-overlay) .slidev-layout h3,
@@ -97,27 +99,32 @@
 }
 
 .bg-primary a,
+.card-primary a,
 .slidev-page:has(.bg-primary-overlay) .slidev-layout a {
   color: white;
 }
 
 .bg-primary a:hover,
+.card-primary a:hover,
 .slidev-page:has(.bg-primary-overlay) .slidev-layout a:hover {
   color: var(--slidev-theme-primary-light);
 }
 
 .bg-primary code,
+.card-primary code,
 .slidev-page:has(.bg-primary-overlay) .slidev-layout code {
   background: rgba(255, 255, 255, 0.2);
   color: white;
 }
 
 .bg-primary li::marker,
+.card-primary li::marker,
 .slidev-page:has(.bg-primary-overlay) .slidev-layout li::marker {
   color: white;
 }
 
 .bg-primary p,
+.card-primary p,
 .slidev-page:has(.bg-primary-overlay) .slidev-layout p {
   color: rgba(255, 255, 255, 0.85);
 }
@@ -215,6 +222,46 @@
 
 .slidev-layout.two-cols .col-right.bg-primary {
   box-shadow: -4px 0 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Two columns header layout */
+.slidev-layout.two-cols-header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 1fr auto;
+  gap: 0;
+  padding: 2.5rem;
+  height: 100%;
+}
+
+.slidev-layout.two-cols-header .col-header {
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.slidev-layout.two-cols-header .col-left {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.slidev-layout.two-cols-header .col-right {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.slidev-layout.two-cols-header .col-bottom {
+  align-self: end;
+  grid-area: 3 / 1 / 3 / 3;
+}
+
+.slidev-layout.two-cols-header .col-header.bg-primary {
+  margin: -2.5rem -2.5rem 1rem -2.5rem;
+  padding: 1.5rem 2.5rem 1rem 2.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.slidev-layout.two-cols-header .card-primary {
+  background: var(--slidev-theme-primary);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Tables */
