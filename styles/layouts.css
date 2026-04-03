@@ -236,6 +236,8 @@
 
 .slidev-layout.two-cols-header .col-header {
   grid-area: 1 / 1 / 2 / 3;
+  margin: -2.5rem -2.5rem 1rem -2.5rem;
+  padding: 0.85rem 2.5rem 0.5rem 2.5rem;
 }
 
 .slidev-layout.two-cols-header .col-left {
@@ -252,15 +254,24 @@
 }
 
 .slidev-layout.two-cols-header .col-header.bg-primary {
-  margin: -2.5rem -2.5rem 1rem -2.5rem;
-  padding: 1.5rem 2.5rem 1rem 2.5rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-.slidev-layout.two-cols-header .card-primary {
+.slidev-layout.two-cols-header .col-left.card-primary {
   background: var(--slidev-theme-primary);
-  border-radius: 0.75rem;
-  padding: 1.5rem;
+  margin-left: -2.5rem;
+  margin-bottom: -2.5rem;
+  padding: 1.5rem 1.5rem 2.5rem 2.5rem;
+  border-radius: 0 0.75rem 0 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.slidev-layout.two-cols-header .col-right.card-primary {
+  background: var(--slidev-theme-primary);
+  margin-right: -2.5rem;
+  margin-bottom: -2.5rem;
+  padding: 1.5rem 2.5rem 2.5rem 1.5rem;
+  border-radius: 0.75rem 0 0 0;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 

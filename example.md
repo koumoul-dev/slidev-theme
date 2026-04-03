@@ -80,6 +80,23 @@ This column keeps the default styling.
 ---
 layout: two-cols-header
 header-bg: primary
+---
+
+# Two Columns Header
+
+::left::
+
+`layout: two-cols-header`
+`header-bg: primary`
+
+The header spans both columns with a primary background.
+
+::right::
+
+Content is split into left and right columns below the header.
+
+---
+layout: two-cols-header
 right-bg: primary
 ---
 
@@ -87,14 +104,14 @@ right-bg: primary
 
 ::left::
 
-This column keeps the default styling with standard text and background.
+`layout: two-cols-header`
+`right-bg: primary`
 
-- Regular content
-- Standard colors
+The right column has a primary background that extends to the edges of the slide.
 
 ::right::
 
-This column renders as a **primary card** with rounded corners and shadow.
+This column renders with a **primary background**, rounded top corner and shadow.
 
 - Card-style background
 - White text
