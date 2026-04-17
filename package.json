@@ -27,6 +27,7 @@
     "vue": "^3.5.31"
   },
   "dependencies": {
+    "@iconify-json/mdi": "^1.2.0",
     "@slidev/theme-default": "^0.25.0"
   }
 }

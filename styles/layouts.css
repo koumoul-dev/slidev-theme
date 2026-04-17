@@ -130,6 +130,12 @@
   color: rgba(255, 255, 255, 0.85);
 }
 
+.bg-primary .kpi-icon,
+.card-primary .kpi-icon,
+.slidev-page:has(.bg-primary-overlay) .kpi-icon {
+  color: white;
+}
+
 /* Cover layout */
 .slidev-layout.cover {
   display: flex;
@@ -335,4 +341,19 @@
   border-radius: 0.5rem;
   padding: 1rem;
   overflow-x: auto;
+}
+
+/* prevent blank two-cols page */
+.slidev-layout.two-columns {
+  break-inside: avoid;
+  backface-visibility: hidden;
+}
+
+.slidev-layout, 
+.two-columns, 
+.col-left, 
+.col-right {
+  break-inside: avoid !important;
+  page-break-inside: avoid !important;
+  display: block; /* Sometimes flex/grid triggers the 'push' logic */
 }

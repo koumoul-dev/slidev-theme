@@ -181,6 +181,42 @@ bottom-logo: false
 The `bottom-logo: false` frontmatter hides the logo on this slide.
 
 ---
+
+# Key Metrics
+
+<div class="grid grid-cols-3 gap-6 mt-12">
+  <Kpi label="Active Users" value="12.4k">
+    <mdi-account-group />
+  </Kpi>
+  <Kpi variant="card" label="Datasets" value="847">
+    <mdi-database />
+  </Kpi>
+  <Kpi variant="card-primary" label="Uptime" value="99.9%">
+    <mdi-chart-line />
+  </Kpi>
+</div>
+
+Inline icons also work anywhere: <mdi-rocket-launch /> ready to ship.
+
+---
+background: primary
+---
+
+# Key Metrics on Primary
+
+<div class="grid grid-cols-3 gap-6 mt-12">
+  <Kpi label="Active Users" value="12.4k">
+    <mdi-account-group />
+  </Kpi>
+  <Kpi label="Datasets" value="847">
+    <mdi-database />
+  </Kpi>
+  <Kpi label="Uptime" value="99.9%">
+    <mdi-chart-line />
+  </Kpi>
+</div>
+
+---
 layout: end
 ---
 
