@@ -217,6 +217,38 @@ background: primary
 </div>
 
 ---
+layout: two-cols
+---
+
+# KPIs in Two Cols
+
+Two KPIs side by side on the left column.
+
+<div class="grid grid-cols-2 gap-4 mt-6">
+  <Kpi variant="card" label="Active Users" value="12.4k">
+    <mdi-account-group />
+  </Kpi>
+  <Kpi variant="card" label="Datasets" value="847">
+    <mdi-database />
+  </Kpi>
+</div>
+
+::right::
+
+# Right Column
+
+Two more KPIs side by side.
+
+<div class="grid grid-cols-2 gap-4 mt-6">
+  <Kpi variant="card-primary" label="Uptime" value="99.9%">
+    <mdi-chart-line />
+  </Kpi>
+  <Kpi variant="card-primary" label="Queries" value="3.2M">
+    <mdi-rocket-launch />
+  </Kpi>
+</div>
+
+---
 layout: end
 ---
 
