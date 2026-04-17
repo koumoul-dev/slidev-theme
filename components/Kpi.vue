@@ -24,15 +24,15 @@ defineProps({
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 0.25rem;
-  padding: 0.5rem 0.75rem;
+  gap: 0.125rem;
+  padding: 0.25rem 0.5rem;
 }
 
 .kpi.card,
 .kpi.card-primary {
-  margin: 0.5rem 0;
-  padding: 1rem 1.25rem;
-  border-radius: 0.75rem;
+  margin: 0.25rem 0;
+  padding: 0.6rem 0.75rem;
+  border-radius: 0.6rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
@@ -55,21 +55,21 @@ defineProps({
 }
 
 .kpi-icon {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   line-height: 1;
   color: var(--slidev-theme-primary);
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.125rem;
 }
 
 .kpi-value {
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1.1;
   color: inherit;
 }
 
 .kpi-label {
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   opacity: 0.75;
   color: inherit;
 }
