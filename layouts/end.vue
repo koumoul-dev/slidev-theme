@@ -1,5 +1,5 @@
 <script setup>
-import logoSloganWhiteUrl from '../public/logo-slogan-white.png'
+import logoSloganWhiteUrl from '../public/logo-slogan-white.svg'
 </script>
 
 <template>

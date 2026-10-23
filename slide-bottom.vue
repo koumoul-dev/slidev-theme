@@ -8,7 +8,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useSlideContext } from '@slidev/client'
-import logoCircleUrl from './public/logo-circle.png'
+import logoCircleUrl from './public/logo-circle.svg'
 
 const { $frontmatter, $nav } = useSlideContext()
 
